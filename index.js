@@ -12,7 +12,7 @@ class Driver {
 }
 
 class Route {
-  constructor(beginningLocation, endLocation) {
+  constructor(beginningLocation, endingLocation) {
     
   }
 }
