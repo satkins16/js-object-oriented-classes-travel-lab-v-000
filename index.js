@@ -20,7 +20,9 @@ class Route {
   }
 
   blocksTravelled() {
-    
-    
+    avenueIndex(avenue) {
+      return eastWest.indexOf(avenue)
+    }
+
   }
 }
