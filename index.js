@@ -19,10 +19,12 @@ class Route {
     this.endingLocation = endingLocation
   }
 
-  blocksTravelled() {
-    avenueIndex(avenue) {
-      return eastWest.indexOf(avenue)
-    }
-
+  avenueIndex(avenue) {
+    return eastWest.indexOf(avenue)
   }
+
+  blocksTravelled() {
+    let horizontalDistance = this.avenueIndex(this.endingLocation.horizontal) - this.avenueIndex(this.beginningLocation.horizontal)
+  }
+
 }
